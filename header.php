@@ -50,6 +50,7 @@
 					echo "class=\"current\""; ?> >
 			Forums</a>
 			</li>
+<<<<<<< HEAD
 			<li><a href="index.php?page=nous_contacter" title="Nous contacter"
 			<?php if (isset($_GET['page']))
 				if ($_GET['page']=="nous_contacter")
@@ -57,4 +58,13 @@
 			Nous contacter</a>
 			</li>
 		</ul>
+=======
+			<li><a href="index.php?page=nous-contacter" title="Nous contacter"
+			<?php if (isset($_GET['page']) && ($_GET['page']=="nous-contacter"))
+					echo ("class=current"); ?> >
+			Nous contacter</a>
+			</li>
+		</ul>
+		<
+>>>>>>> testing
 	</div>
