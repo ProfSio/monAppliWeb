@@ -1,6 +1,10 @@
-<?php include 'header.html'; ?>
-<div id="contenuPage"><?php include 'calculatrice.html'; ?> </div>
-<?php include 'footer.html'; ?>
+<?php include 'header.html'; 
+if (!isset($GET['page']))
+	include 'calculatrice.html'; 
+	else {
+   if($GET['page']=="nous-contacter")
+	 include 'nous-contacter.html';}
+include 'footer.html'; ?>
 
 
 
