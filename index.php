@@ -6,6 +6,9 @@
 		if($GET['page']=="articles")
 			include 'articles.html';
 		if($GET['page']=="nous-contacter")
-			include 'nous-contacter.html';}
+			include 'nous-contacter.html';
+		if($GET['page']=="tutos")
+			include 'tutos.html';}
+		
  include 'footer.html'; ?>
 
